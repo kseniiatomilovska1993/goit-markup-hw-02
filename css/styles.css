@@ -6,7 +6,13 @@
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
 
@@ -17,7 +23,7 @@ img {
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .logo {
@@ -27,18 +33,33 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+}
+
+.logo span {
   color: #4d5ae5;
 }
 
-.nav-link {
+.nav-list > li {
+  list-style: none;
+}
+
+.nav-list > li > a {
   font-weight: 500;
   font-size: 16px;
+  text-decoration: none;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
-.contacts-link {
+.contacts-list > li {
+  list-style: none;
+}
+
+.contacts-list > li > a {
+  text-decoration: none;
   font-style: normal;
   color: #434455;
 }
@@ -64,30 +85,28 @@ body {
 
 .section-title {
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 40px;
+  font-weight: 700;
   text-align: center;
   color: #2e2f42;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+.features-list > li {
+  list-style: none;
+  line-height: 24px;
 }
 
-.features-subtitle,
-.portfolio-subtitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  color: #2e2f42;
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-list > li {
+  list-style: none;
+  background-color: #fff;
+}
+
+.portfolio-list > li {
+  list-style: none;
 }
 
 .footer {
@@ -96,4 +115,8 @@ body {
 
 .footer-text {
   color: #f4f4fd;
+}
+
+.footer .logo {
+  color: #fff;
 }
