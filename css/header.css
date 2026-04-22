@@ -8,7 +8,7 @@
 }
 
 .nav-link:hover {
-  color: #565764;
+  color: #404bbf;
 }
 
 .nav-link:focus {
@@ -21,11 +21,15 @@
 
 .contact-link {
   text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
 .contact-link:hover {
-  color: #666672;
+  color: #404bbf;
 }
 
 .contact-link:focus {

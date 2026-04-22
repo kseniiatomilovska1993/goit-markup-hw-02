@@ -1,4 +1,4 @@
-#hero {
+.hero {
   background-color: #2e2f42;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .hero-btn:hover {
-  background-color: #646ee4;
+  background-color: #404bbf;
 }
 
 .hero-btn:focus {
